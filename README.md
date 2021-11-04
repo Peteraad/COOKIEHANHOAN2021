@@ -20,7 +20,7 @@ Suỵt! Tập trung và đeo tai nghe lên nào. Gà có nghe thấy nhịp beat
 
 >  [cipher .zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7471540/cipher.zip)
 
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Theo đề bài thì ta biết đây là một file âm thanh liên quân đến mã Morse. Cho nên ta dùng trang web ở dưới để hiểu được thông điệp nó muốn nói là gì
 
@@ -37,7 +37,7 @@ Vô tình khi khai quật khảo cổ, Gà tìm được một thông điệp b�
 
 > [cipher (9).txt](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7471565/cipher.9.txt)
 
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Như đề bài thì ta biết được đây là mã Caeser việc ta cần làm chỉ là decode nó qua trang 
 
@@ -54,7 +54,7 @@ Gà để lại một thông điệp bí mật nhưng nó không làm khó đư�
 
 > [cipher (10).txt](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7471706/cipher.10.txt)
 
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Đọc đề bài ta có thể hiểu được là Sixty Four là 64 hay nói rõ hơn thì đoạn mã đã được mã hóa dưới dạng base64. Ta chỉ cần decode nó qua trang web 
 
@@ -74,7 +74,7 @@ Bước 2: Tuy nhiên đây chưa phải là Flag dựa vào quan sát ta thử 
 
 > https://discord.gg/cookiehanhoan
 
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Thường thì đây là câu cho điểm các thí sinh nên việc ta cần làm chỉ là vào discord Cookie Hân Hoan. Vào phần ghim tin nhắn để kiểm tra xem có gì đáng lưu ý không.
 
@@ -92,7 +92,7 @@ Bỏ qua tất cả các tích phân, đạo hàm, ma trận, sác xuất. Gà h
 
 > [player (2).zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7471782/player.2.zip)
  
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Ta thử kết nối với programming.letspentest.org 8111 bằng netcat. Ta thấy được việc ta cần làm là tính tổng 10 số tự nhiên.
 
@@ -111,7 +111,7 @@ Rồi một ngày kia mắt anh tròn xoe như đường tròn lượng giác Kh
 
 > [player (3).zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7471805/player.3.zip)
 
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Ta thử kết nối với programming.letspentest.org 8222 bằng netcat. Ta thấy được việc ta cần làm là tìm nghiệm của phương trình bậc 2. Tuy nhiên một số điều cần lưu ý khi submit đã được đề cập trong file của bài như 
 
@@ -132,7 +132,7 @@ Hazy ngồi cân những viên bi mình đang có, loay hoay vẫn không biết
 
 > [player (4).zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7471821/player.4.zip)
 
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Ta thử kết nối với programming.letspentest.org 8333 bằng netcat. Ta thấy được bài toán như sau
 
@@ -161,7 +161,7 @@ Thấy hộp bánh quy của chú Hazy để hớ hênh trên bàn. Với bản 
 
 > http://chal5.web.letspentest.org/
 
-###***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Ta thử truy cập vào trang web và nhập bừa tài khoản mật khẩu thì ta nhận được thông báo.
 
@@ -177,12 +177,12 @@ Bước 3: Ta thấy được giá trị đang là Guest mà trang web đang c�
 
 **Flag{Cookies_Yummy_Cookies_Yammy!}**
 
- ### Bài 2 : HEADER 401
+### Bài 2 : HEADER 401
 Để nhiều loại Trình duyệt và Web Server có thể nói chuyện và hiểu được nhau thì họ phải sử dụng chung một giao thức có tên gọi là HTTP Protocol. Khi người dùng bắt đầu truy cập Web, trình duyệt sẽ chuyển những hành động của họ thành yêu cầu (Request) tới Web Server. Còn Web Server sẽ trả lời (Response) xem có thể đáp ứng hay từ chối cung cấp thông tin cho trình duyệt. Ví dụ, bạn Gà muốn LẤY danh sách các thử thách trong cookiearena<chấm>org, ở đường dẫn /challenges bằng TRÌNH DUYỆT Chrome. Trình duyệt của Gà sẽ phải điền vào một cái form mẫu có tên gọi là HTTP Header và gửi đi. Mỗi yêu cầu sẽ được viết trên một dòng, và nội dung của mỗi yêu cầu sẽ phải viết đằng sau dấu hai chấm. Hãy đoán xem trong thử thách này có những Header thú vị nào nha
 
 > http://chal3.web.letspentest.org/
 
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Ta vào trang web thử ta nhận được một thông tin "Hello GET Request. Nice to meet you <3". Khi bật source lên thì ta tìm được
 
@@ -207,7 +207,7 @@ Sau nhiều đêm suy nghĩ về việc làm thế nào để bảo vệ mã ngu
 
 > http://chal4.web.letspentest.org/
 
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Ta truy cập vào trang web mở source code ra ta tìm được hàm kiểm tra user/pass/role để có được flag
 
@@ -235,7 +235,7 @@ Học lỏm được công thức chế tạo lá chắn tàng hình của Hazy.
 
 > http://chal7.web.letspentest.org/
 
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Vào trang web mở phần source code ta tìm được hàm checkPass()
 
@@ -250,7 +250,7 @@ Cuộc đời luôn là vậy. Một giây trước tưởng đã cùng đườn
 
 > http://chal6.web.letspentest.org/
 
-####***Cách giải***
+#### ***Cách giải:***
 
 Bước 1: Truy cập vào trang web, ta nhập bừa một đáp án nào đấy. Thì ta thấy nó ra một trang web lỗi :>
 
