@@ -68,7 +68,7 @@ Bước 2: Tuy nhiên đây chưa phải là Flag dựa vào quan sát ta thử 
 
 **Flag{___Base64xHex___}**
 
-## Misc
+## MISC
 ### Bài 1 : DISCORD
 Đã từng là những Rookie còn bỡ ngơ trong ngành bảo mật, chúng mình hiểu cảm giác ấy! Nên Cookie Hân Hoan muốn sử dụng những năng lượng vui tươi và truyền cảm hứng học và tìm hiểu bảo mật cho các bạn. Không dùng những tiêu đề cảnh báo an ninh nhạy cảm, gây sợ hãi. Cookie Hân Hoan giúp mọi người tiếp cận các vấn đề về An Ninh Mạng bằng sự đồng cảm và hài hước. Hãy tham gia kênh Discord chính thức của Cookie Hân Hoan để nhận #roles tham gia trao đổi các thử thách với các chiến binh khác. Flag sẽ ở chỗ mà ai cũng thấy!
 
@@ -156,7 +156,7 @@ Bước 3: Tuy nhiên bài này mình sẽ không code socket vì mình tìm th�
 
 **Flag{n0_pr0b_w1th_cub3_r00t_RIGHT?}**
 
-## Web Basic
+## WEB BASIC
 ### Bài 1 : HÂN HOAN
 Thấy hộp bánh quy của chú Hazy để hớ hênh trên bàn. Với bản tính nghịch ngợm, Mèo Yang Hồ nhanh tay thêm chút gia vị để biến cuộc đời trở nên hài hước và hân hoan hơn.
 
