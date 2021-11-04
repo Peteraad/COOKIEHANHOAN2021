@@ -229,3 +229,42 @@ Bước 4: Nhập vào trang web, ta nhận được flag
 > ![image](https://user-images.githubusercontent.com/90112096/140250185-ef75d970-8d7e-48fb-9497-cb9eba70029c.png)
 
 **Flag{JAV-ascript_F*ck}**
+
+### Bài 4: IMPOSSIBLE
+Học lỏm được công thức chế tạo lá chắn tàng hình của Hazy. Gà nhanh chóng đem về xây dựng hệ thống phòng thủ của riêng mình. Liệu nó có làm khó được Mèo Yang Hồ không?
+
+> http://chal7.web.letspentest.org/
+
+####***Cách giải***
+
+Bước 1: Vào trang web mở phần source code ta tìm được hàm checkPass()
+
+> ![image](https://user-images.githubusercontent.com/90112096/140250747-b22f222f-326f-4876-9e35-fef8479e88f4.png)
+
+Bước 2: Sau khi đọc sơ thì ta có thể hiểu được hàm sẽ nhận password. Sau đó sẽ xóa đi dãy "cookiehanhoan" sau đó chuyển qua dạng base 64 sau cùng so sánh với "Y29va2llaGFuaG9hbg==" ( hay ta có thể biết đây là cookiehanhoan ). Nhìn sơ quá thì có thể nghĩ rằng password sẽ là cookiehanhoancookiehanhoan. Tuy nhiên chúng ta phải thử mới biết được đáp án thật sự là cookiecookiehanhoanhanhoan ( Các bạn nên code ra thử để hiểu thêm ). Sau khi nhập password ta tìm được đáp án.
+
+**Flag{Javascript_is_not_safe???}**
+
+### Bài 5 : INFINITE LOOP 
+Cuộc đời luôn là vậy. Một giây trước tưởng đã cùng đường, một giây sau có lại đầy hy vọng. Các chiến binh đã có công cụ mạnh mẽ trong tay, hãy dùng nó để can thiệp dòng chảy.
+
+> http://chal6.web.letspentest.org/
+
+####***Cách giải***
+
+Bước 1: Truy cập vào trang web, ta nhập bừa một đáp án nào đấy. Thì ta thấy nó ra một trang web lỗi :>
+
+> ![image](https://user-images.githubusercontent.com/90112096/140251533-0aa5f712-a345-4536-aeef-fb9bf2a1b6fc.png)
+
+Bước 2: Tuy nhiên nếu bạn để ý thì sau đó 1s thì nó có load lại web một lần nữa mà lần nãy chỉ số id=3 đã nhảy qua id=2. Vậy ta đoán được flag sẽ là một số nào đó
+
+Bước 3: Sau đó ta dùng công cụ BurpSuite để can thiệp. 
+
+> ![image](https://user-images.githubusercontent.com/90112096/140251844-2450f578-89c9-4fa1-a996-87f343d981d6.png)
+
+Bước 4: Ta chỉ cần thay đổi biến id= ( trong khoảng từ 1-10 ) . Đến lượt id=6 ta đã tìm được đáp án.
+
+> ![image](https://user-images.githubusercontent.com/90112096/140251966-ca2b616f-ee77-4a5a-bc70-c05f9044bcbf.png)
+
+**Flag{Y0u_c4ptur3_m3_xD!!!}**
+
