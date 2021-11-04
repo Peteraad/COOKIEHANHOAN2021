@@ -49,7 +49,7 @@ Bước 2: Sau khi decode ta tìm được flag :3
 
 **Flag{El_Clasico_Cipher}**
 
-### Bài 4: Sixty Four
+### Bài 4: SIXTY FOUR
 Gà để lại một thông điệp bí mật nhưng nó không làm khó được trí thông minh của Mèo Yang Hồ.
 
 > [cipher (10).txt](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7471706/cipher.10.txt)
@@ -69,7 +69,7 @@ Bước 2: Tuy nhiên đây chưa phải là Flag dựa vào quan sát ta thử 
 **Flag{___Base64xHex___}**
 
 ## Misc
-### Bài 1 : Discord
+### Bài 1 : DISCORD
 Đã từng là những Rookie còn bỡ ngơ trong ngành bảo mật, chúng mình hiểu cảm giác ấy! Nên Cookie Hân Hoan muốn sử dụng những năng lượng vui tươi và truyền cảm hứng học và tìm hiểu bảo mật cho các bạn. Không dùng những tiêu đề cảnh báo an ninh nhạy cảm, gây sợ hãi. Cookie Hân Hoan giúp mọi người tiếp cận các vấn đề về An Ninh Mạng bằng sự đồng cảm và hài hước. Hãy tham gia kênh Discord chính thức của Cookie Hân Hoan để nhận #roles tham gia trao đổi các thử thách với các chiến binh khác. Flag sẽ ở chỗ mà ai cũng thấy!
 
 > https://discord.gg/cookiehanhoan
@@ -104,7 +104,7 @@ Bước 2: Ta bắt tay vào code socket. Các bạn nên đọc code để dễ
 
 **Flag{1plust1_1s_2_qu1ck_mafth}**
 
-### Bài 2 : Pro102
+### Bài 2 : PRO102
 Rồi một ngày kia mắt anh tròn xoe như đường tròn lượng giác Khi bất ngờ một bài toán bậc 2 Cứ lầm tưởng rằng nghiệm duy nhất với ai Thật kinh hoàng phương trình vô nghiệm(st)
 
 > programming.letspentest.org 8222
@@ -125,7 +125,7 @@ Bước 2: Ta bắt tay vào code socket. Các bạn nên đọc code để dễ
 
 **Flag{2fast2fur10us}**
 
-### Bài 3 : Roberval
+### Bài 3 : ROBERVAL
 Hazy ngồi cân những viên bi mình đang có, loay hoay vẫn không biết phải cân bao nhiêu lần để tìm được viên bi nhẹ nhất. Bạn giúp Hazy một tay với nhé
 
 > programming.letspentest.org 8333
@@ -156,7 +156,7 @@ Bước 3: Tuy nhiên bài này mình sẽ không code socket vì mình tìm th�
 **Flag{n0_pr0b_w1th_cub3_r00t_RIGHT?}**
 
 ## Web Basic
-### Bài 1 : Hân Hoan
+### Bài 1 : HÂN HOAN
 Thấy hộp bánh quy của chú Hazy để hớ hênh trên bàn. Với bản tính nghịch ngợm, Mèo Yang Hồ nhanh tay thêm chút gia vị để biến cuộc đời trở nên hài hước và hân hoan hơn.
 
 > http://chal5.web.letspentest.org/
@@ -177,7 +177,7 @@ Bước 3: Ta thấy được giá trị đang là Guest mà trang web đang c�
 
 **Flag{Cookies_Yummy_Cookies_Yammy!}**
 
-### Bài 2 : Header 401
+ ### Bài 2 : HEADER 401
 Để nhiều loại Trình duyệt và Web Server có thể nói chuyện và hiểu được nhau thì họ phải sử dụng chung một giao thức có tên gọi là HTTP Protocol. Khi người dùng bắt đầu truy cập Web, trình duyệt sẽ chuyển những hành động của họ thành yêu cầu (Request) tới Web Server. Còn Web Server sẽ trả lời (Response) xem có thể đáp ứng hay từ chối cung cấp thông tin cho trình duyệt. Ví dụ, bạn Gà muốn LẤY danh sách các thử thách trong cookiearena<chấm>org, ở đường dẫn /challenges bằng TRÌNH DUYỆT Chrome. Trình duyệt của Gà sẽ phải điền vào một cái form mẫu có tên gọi là HTTP Header và gửi đi. Mỗi yêu cầu sẽ được viết trên một dòng, và nội dung của mỗi yêu cầu sẽ phải viết đằng sau dấu hai chấm. Hãy đoán xem trong thử thách này có những Header thú vị nào nha
 
 > http://chal3.web.letspentest.org/
@@ -202,7 +202,7 @@ Bước 4: Ta chỉ cần thay đổi phương thức qua POST và chèn thêm *
 
 **Flag{m4g1c@l_h34d3r_xD}**
 
-### Bài 3 : JS B**p B**p
+### Bài 3 : JS BEEP BEEP 
 Sau nhiều đêm suy nghĩ về việc làm thế nào để bảo vệ mã nguồn. Cố gắng thoát khỏi ánh mắt soi mói của Mèo Yang Hồ. Gà chẹp miệng rồi nói: "Đã tới lúc phải cho nó phải thốt lên rằng! WTF!!!"
 
 > http://chal4.web.letspentest.org/
