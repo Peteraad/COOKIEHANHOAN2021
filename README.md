@@ -3,7 +3,7 @@
 ### Bài 1 : XOR 
 [encrypt.zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7471519/encrypt.zip)
 
-####***Cách giải***
+#### ***Cách giải***
 
 Bước 1: Theo đề bài thì ta thấy đây là một bài dạng XOR, việc ta cần làm là dịch ngược đoạn mã 
 
