@@ -289,7 +289,7 @@ Bước 3: Truy cập vào đường dẫn http://chal2.web.letspentest.org/fl@g
 
 **Flag{N0_B0T_@ll0w}**
 
-### SAUSE
+### Bài 7 : SAUSE
 Trình duyệt đang rất vất vả để chuyển đổi các đoạn mã thành hình ảnh và màu sắc. Hãy trải nghiệm góc nhìn của trình duyệt nhé!
 
 > http://chal1.web.letspentest.org/
@@ -302,5 +302,14 @@ Bước 1: Truy cập vào trang mở source code lên ta tìm được flag
 
 **Flag{Web_Sause_Delicious}**
 
+## NETWORK
+### Bài 1 : POST OFFICE MAN
+Anh bưu tá này là một người mà Gà rất tin tưởng. Gà ủy quyền cho anh ấy lên bưu điện, nói chuyện với anh kiểm thư để lấy thư về.
+
+Nếu giấy ủy quyền hợp lệ, anh kiểm thư sẽ giữ lại bản gốc rồi photocopy ra một bản khác để anh bưu tá đem về cho Gà. Để nhỡ trong trường hợp Gà có tức quá xé thư đi thì vẫn có thể lên đây lấy lại.
+
+Đố bạn anh bưu tá sử dụng giao thức email nào để nói chuyện với anh kiểm thư?
+
+> network.letspentest.org 9002
 
  
