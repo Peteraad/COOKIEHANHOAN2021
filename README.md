@@ -1,5 +1,5 @@
 # COOKIEHANHOAN2021
-## Cryptography
+## CRYPTOGRAPHY
 ### Bài 1 : XOR 
 [encrypt.zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7471519/encrypt.zip)
 
