@@ -138,11 +138,12 @@ Bước 1: Ta thử kết nối với programming.letspentest.org 8333 bằng ne
 
 > ![image](https://user-images.githubusercontent.com/90112096/140246630-c174829d-5a66-4251-acbf-bd478aa53d70.png)
 
-Bước 2: Sau một hồi tìm kiếm công thức và suy nghĩ thì mình nghiệm ra cách giải bài này là: Cứ chia n cho 3 đến khi bằng 1. Để giải thích cho cách giải này mình có ví dụ như sau:
+Bước 2: Sau một hồi tìm kiếm công thức và suy nghĩ thì mình nghiệm ra cách giải bài này là: Cứ chia n cho 3 đến khi bằng 1. Để giải thích cho cách giải này mình có ví dụ với n=9 như sau:
 
 Lần 1 chia nó thành 3 nhóm mỗi nhóm 3 bi , cân 2
 - 2 nhóm bằng nhau > bi nhẹ ở nhóm còn lại
 - 2 nhóm có nhóm nhẹ hơn > bi nhẹ ở nhóm đó 
+
 Lần 2 cân 3 bi trong nhóm nhẹ , cân 2 
 - 2 bi bằng nhau > bi nhẹ là viên còn lại
 - 2 bi không bằng nhau > xác định được viên bi nhẹ
@@ -312,4 +313,116 @@ Nếu giấy ủy quyền hợp lệ, anh kiểm thư sẽ giữ lại bản g�
 
 > network.letspentest.org 9002
 
- 
+### ***Cách giải:***
+
+Bước 1: Kết nối với network.letspentest.org 9002 bằng netcat, sau khi làm theo hướng dẫn ta nhập bừa một chuỗi gì đó để xem nó trả về cái gì 
+
+> ![image](https://user-images.githubusercontent.com/90112096/140307972-d154d7af-599c-4ee2-8825-4bf6a086baac.png)
+
+Bước 2: Sau khi biết rằng ta phải dùng POP3 để giao tiếp thì ta có thể đọc thêm về chúng qua trang web
+
+> https://www.suburbancomputer.com/tips_email.htm
+
+Bước 3: Sử dụng câu lệnh LIST nhận ra có 10 tin nhắn, kiểm tra từng tin bằng RETR, đến RETR 8 thì ta nhận được flag
+
+> ![image](https://user-images.githubusercontent.com/90112096/140308307-7b4a581c-8d90-4635-953b-83b0c71487bd.png)
+
+**Flag{1-Ha\/3-1o0o-UnS33n-3Ma1L}**
+
+### Bài 2 : VERY GOOD SHIPPER
+Hãy tham gia đấu trường Cookie phiên bản nhanh như chớp. Gà phải chọn ra đáp án đúng trong thời gian nhanh nhất.
+
+Giao thức TCP sẽ giúp các câu trả lời của Gà luôn được đảm bảo gửi đến máy chủ của Cookie Arena mà không bị rơi rớt một từ nào.
+
+Tuy nhiên, Gà đã quên cổng kết nối vào máy chủ. Chỉ nhớ mang máng là nó giống với thử thách "Scan me if you can"
+
+network.letspentest.org
+
+### ***Cách giải:***
+
+Bước 1: Sử dụng công cụ nmap để scan các cổng đang có
+
+> ![image](https://user-images.githubusercontent.com/90112096/140308727-44716514-c52d-4b59-b4e0-3cec7bad62ae.png)
+
+Bước 2: Sau đó ta kết nối  network.letspentest.org qua cổng 9003 bằng netcat. Sau khi trả lời các câu hỏi đơn giản từ Cookie ta nhận được flag :3 
+
+> ![image](https://user-images.githubusercontent.com/90112096/140308995-e1790202-86ff-4b93-8361-1fd3e35ec421.png)
+
+**Flag{t00-ez-4-y0u}**
+
+### Bài 3 : WHERE IS MY HOUSE ?
+DNS CHÍNH LÀ XƯƠNG SỐNG CỦA INTERNET.
+
+Tên miền hay Domain chính là địa chỉ trang web, thứ mà các bạn vẫn hay gõ vào trên thanh địa chỉ trên trình duyệt để đọc báo hay lướt web, xem phim.
+
+Trên Internet mọi máy tính, máy chủ, các thiết bị mạng được kết nối và giao tiếp với nhau thông qua hệ thống cáp mạng chằng chịt và khổng lồ. Các máy tính sẽ được gán cho nhau những dãy số để định danh với nhau gọi là địa chỉ IP. Nói một cách dễ hiểu thì một ai đó muốn ghé thăm nhà bạn thì họ cần phải có địa chỉ nhà. Những dãy số địa chỉ này có độ dài có thể lên đến 12 hoặc 45 kí tự.
+
+Đến mật khẩu 6 kí tự bạn còn không nhớ nổi, vì thế năm 1984 DNS (Domain Name System) được phát minh để giúp bạn kết nối với nhau bằng tên gọi.
+
+Bạn chỉ cần nhớ letspentest.org thay vì những dãy số khô khan và kì quặc. Khi vừa Enter, hệ thống DNS bắt đầu hoạt động, nó như tấm bản đồ để chỉ cho bạn biết "Hey, cái tên miền của Cookie có địa chỉ IP là X.X.X.X, hãy tới đó mà lấy thông tin đê". DNS cũng trả lời cho bạn biết "X.X.X.X có phải địa chỉ nhà Cookie Hân Hoan hay không"
+
+DNS cũng chứa các thông tin khác, nó gọi là các bản ghi (Record). Bạn thử tìm xem domain này còn có những bản ghi nào chứa những điều kì quặc không?
+
+> letspentest.org
+
+### ***Cách giải:***
+
+Bước 1: Sau khi đọc đề thì mình cảm thấy câu này cần được chú ý " DNS cũng chứa các thông tin khác, nó gọi là các bản ghi (Record). Bạn thử tìm xem domain này còn có những bản ghi nào chứa những điều kì quặc không? ".
+
+Bước 2: Việc mình làm là tìm Record của DNS, ở đây mình dùng trang này
+
+> https://dnschecker.org/all-dns-records-of-domain.php?query=letspentest.org&rtype=ALL&dns=google
+
+Bước 3: Sau đấy ta thấy được flag
+
+> ![image](https://user-images.githubusercontent.com/90112096/140309337-f55f4305-f984-4be0-849f-b9e89b7e1b72.png)
+
+**Flag{DNS_A_AAAA_TXT_CNAME}**
+
+### Bài 4: SCAN ME IF YOU CAN
+Nếu coi mỗi máy chủ là một ngôi nhà, trước khi xâm nhập vào bên trong, các Hacker phải thực hiện việc thăm dò. Họ xem xét đâu là điểm yếu nhất của ngôi nhà, chỗ nào là điểm mù camera? Chủ nhà hoặc bảo vệ sẽ phản ứng thế nào khi có xuất hiện các dấu hiệu bất thường?
+
+Trong quá trình tìm kiếm lỗ hổng, Hazy thường xem xét ngôi nhà này có bao nhiêu cánh cửa đang mở (Port). Hãy sử dụng công cụ thân quen để "ném đá" vào tất cả các cánh cửa của ngôi nhà.
+
+Biết rằng, cửa sổ được đánh số từ 8100 tới 9100
+
+Dựa vào sự phản hồi bạn sẽ biết được những điều thú vị!
+
+> network-insecure.letspentest.org
+
+### ***Cách giải:***
+
+Bước 1: Sử dụng công cụ nmap để scan các cổng đang có
+
+> ![image](https://user-images.githubusercontent.com/90112096/140309649-71cf588b-1409-4b9e-8d9e-02741d1513ca.png)
+
+Bước 2: Do cửa sổ được đánh số từ 8100 tới 9100, nên ta sẽ kết nối tới network-insecure.letspentest.org qua cổng 9003 bằng netcat. Sau đó ta nhận được flag.
+
+> ![image](https://user-images.githubusercontent.com/90112096/140309811-bce420fb-896a-493c-83e4-17797e9f7f30.png)
+
+
+**Flag{Every-Header-Have-It-Own-Meaning}**
+
+### Bài 5 : SECURE HTTP 
+HTTP và HTTPS đều là hai giao thức giúp trình duyệt của bạn truy cập, tương tác với các trang Web. Tuy nhiên khi sử dụng giao thức HTTP để truy cập Web ở một quán cà phê hay trong cùng một khu trọ thì tất cả các nội dung trao đổi nhạy cảm, cũng như mật khẩu của bạn trên Web đều có thể nghe lén.
+
+Còn HTTPS (chữ S có nghĩa là Secure - Bảo mật) sinh ra để mã hóa dữ liệu trong quá trình trao đổi giữa trình duyệt và máy chủ bằng một chiếc Chứng chỉ (Certificate)
+
+> network-insecure.letspentest.org 9004
+
+### ***Cách giải:***
+Bước 1: Ban đầu mình có ý định là kết nối network-insecure.letspentest.org 9004 bằng netcat. Tuy nhiên sau khi kết nối mình không hề nhận được gì nên mình thay đổi hướng khác ( Flag các bạn thấy là của bài scan me if you can ) 
+
+> ![image](https://user-images.githubusercontent.com/90112096/140310067-8375e77d-d9bb-4b85-a857-08c88c44022d.png)
+
+Bước 2: Sau đó mình nghĩ tới hướng sẽ dùng https look up để xem có gì bất thường không qua trang
+
+> https://mxtoolbox.com/HTTPSLookup.aspx
+
+Bước 3: Như dự đoán ta tìm được flag của bài :> 
+
+> ![image](https://user-images.githubusercontent.com/90112096/140310336-724b71dc-1bbb-4c34-98fc-b0d327234098.png)
+
+**Flag{This-Is-A-Trusted-One}**
+
+
