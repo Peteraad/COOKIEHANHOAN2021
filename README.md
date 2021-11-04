@@ -115,9 +115,9 @@ Rồi một ngày kia mắt anh tròn xoe như đường tròn lượng giác Kh
 
 Bước 1: Ta thử kết nối với programming.letspentest.org 8222 bằng netcat. Ta thấy được việc ta cần làm là tìm nghiệm của phương trình bậc 2. Tuy nhiên một số điều cần lưu ý khi submit đã được đề cập trong file của bài như 
 
-# NẾU KẾT QUẢ LÀ VÔ NGHIỆM -> RETURN "NOPE"
-# NẾU KẾT QUẢ CÓ 1 NGHIỆM DUY NHẤT -> RETURN 1 STRING CÓ 2 KẾT QUẢ NGĂN CÁCH BẰNG DẤU "," (VD: "1, 1"    "123, 123")
-# NẾU KẾT QUẢ CÓ 2 NGHIỆM KHÁC NHAU -> RETURN 1 STRING KẾT QUẢ THEO THỨ TỰ TỪ BÉ ĐẾN LỚN, NGĂN CÁCH NHAU BẰNG DẤU "," (VD: "-1, 1"   "-123, 123")
+- NẾU KẾT QUẢ LÀ VÔ NGHIỆM -> RETURN "NOPE"
+- NẾU KẾT QUẢ CÓ 1 NGHIỆM DUY NHẤT -> RETURN 1 STRING CÓ 2 KẾT QUẢ NGĂN CÁCH BẰNG DẤU "," (VD: "1, 1"    "123, 123")
+- NẾU KẾT QUẢ CÓ 2 NGHIỆM KHÁC NHAU -> RETURN 1 STRING KẾT QUẢ THEO THỨ TỰ TỪ BÉ ĐẾN LỚN, NGĂN CÁCH NHAU BẰNG DẤU "," (VD: "-1, 1"   "-123, 123")
 
 Bước 2: Ta bắt tay vào code socket. Các bạn nên đọc code để dễ hiểu hơn : https://pastebin.com/HCsUTkFC
 
