@@ -268,3 +268,39 @@ Bước 4: Ta chỉ cần thay đổi biến id= ( trong khoảng từ 1-10 ) . 
 
 **Flag{Y0u_c4ptur3_m3_xD!!!}**
 
+### Bài 6 : I AM NOT A ROBOT
+Nếu là người thì cho xem tai, còn nếu là robot thì đứng ở ngoài. Bạn đã bị chặn
+
+> http://chal2.web.letspentest.org/
+
+#### ***Cách giải:***
+
+Bước 1: Như tên đề thì việc ta làm là truy cập vào file robots.txt của trang web. Để tìm hiểu thêm về file này các bạn có thể đọc :
+
+> https://gtvseo.com/robots-txt-la-gi/
+
+Bước 2: Sau đó ta nhận được như hình:
+
+> ![image](https://user-images.githubusercontent.com/90112096/140252799-afd462a0-c5df-4560-b4d0-b96030401c16.png)
+
+Bước 3: Truy cập vào đường dẫn http://chal2.web.letspentest.org/fl@g1337_d240c789f29416e11a3084a7b50fade5.txt để lấy flag thôi
+
+> ![image](https://user-images.githubusercontent.com/90112096/140252896-1efe9820-6456-42dc-8618-7ae0bc0618da.png)
+
+**Flag{N0_B0T_@ll0w}**
+
+### SAUSE
+Trình duyệt đang rất vất vả để chuyển đổi các đoạn mã thành hình ảnh và màu sắc. Hãy trải nghiệm góc nhìn của trình duyệt nhé!
+
+> http://chal1.web.letspentest.org/
+
+### ***Cách giải:***
+ 
+Bước 1: Truy cập vào trang mở source code lên ta tìm được flag
+
+> ![image](https://user-images.githubusercontent.com/90112096/140253054-49962d54-e847-4e45-bfae-90d094e4da71.png)
+
+**Flag{Web_Sause_Delicious}**
+
+
+ 
