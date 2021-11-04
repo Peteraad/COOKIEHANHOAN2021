@@ -425,4 +425,12 @@ Bước 3: Như dự đoán ta tìm được flag của bài :>
 
 **Flag{This-Is-A-Trusted-One}**
 
+## FORENSIC
+### Bài 1: AUDICATY
+Hazy gửi cho Gà một thông điệp bí mật, kèm một lời nhắn "Đừng vội vàng kết luận môt vấn đề, luôn phải để mắt thấy tai nghe"
+
+> [squitgaem (2).zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7474621/squitgaem.2.zip)
+
+### ***Cách giải:***
+
 
