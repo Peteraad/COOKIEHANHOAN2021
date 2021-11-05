@@ -791,4 +791,4 @@ Bước 2: Sau khi đợi một lúc đến số 1337 thì mình đã thấy fla
 **Flag{61cb4a784e83b6109999af6f036b88bf}**
 
 ## Lời kết
- Mình xin cảm ơn các bạn đã đọc write-up của mình. Cảm ơn Cookie Hân Hoan đã tạo một sân chơi cho chúng em thỏa sức với đam mê của bản thân. Vì mình chỉ giải được 37/40 thử thách của cuộc thi nên còn vài thử thách mình không làm được nên không có viết được , mong các bạn thông cảm hì hì :3. ClownCS 18th !!! <3
+ Mình xin cảm ơn các bạn đã đọc write-up của mình. Cảm ơn Cookie Hân Hoan đã tạo một sân chơi cho chúng em thỏa sức với đam mê của bản thân. Vì mình chỉ giải được 37/40 thử thách của cuộc thi nên còn vài thử thách mình không làm được nên không có viết, mong các bạn thông cảm hì hì :3. ClownCS 18th !!! <3
