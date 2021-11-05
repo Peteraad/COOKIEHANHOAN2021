@@ -495,7 +495,7 @@ Bước 2: Mình tìm kiếm trên google dưới dạng từ khóa "satellite a
 
 > https://0xf4b1.github.io/ctftime/picoctf-2019/forensics/m00nwalk/
 
-Bước 3: Do mình không biết đây là chế độ gì nên mình đã thử lần lượt các chế độ trong MMSSTV, đến khi chế độ AVT-90 thì mình đã nhận được flag
+Bước 3: Có rất nhiều phần mềm decode audio nhưng mà ở đây mình xài Black Cat SSTV. Do mình không biết đây là chế độ gì nên mình đã thử lần lượt các chế độ trong Black Cat SSTV, đến khi chế độ AVT-90 thì mình đã nhận được flag
 
 > ![unknown](https://user-images.githubusercontent.com/90112096/140449502-c0e0c849-c618-4497-a029-d5b9097db5fe.png)
 
