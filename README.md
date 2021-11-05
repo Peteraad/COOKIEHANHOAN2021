@@ -664,6 +664,7 @@ Bước 3: Tiếp theo mình đi tìm SQL Filter ByPass
 > https://portswigger.net/support/sql-injection-bypassing-common-filters
 
 Bước 4: Sau đó, gửi lại payload và ta nhận được flag 
+
 ```'/**/OR/**/1/**/--/**/-```
 
 > ![image](https://user-images.githubusercontent.com/90112096/140527835-1e07b26f-c761-4cf2-a3df-6be2445f8cdd.png)
@@ -673,3 +674,37 @@ Bước 5: Decode đoạn "RmxhZ3tHcjMzdDFuR30=" sang ASCII.
 > ![image](https://user-images.githubusercontent.com/90112096/140527997-b8071c4a-e3f4-4363-b29c-112a154df867.png)
 
 **Flag{Gr33t1nG}**
+
+### Bài 5: MISCONFIGURATION
+Chẳng biết vô tình hay cố ý, Gà mắc phải một sai lầm không đáng có trong việc thiết lập cấu hình Web Server.
+
+Từ một lỗ hổng nhỏ tí xíu, Mèo Yang Hồ sẽ tận dụng mọi trí tưởng tượng và kĩ thuật để thâm nhập được sâu hơn.
+
+> http://chal16.web.letspentest.org/
+
+### ***Cách giải:***
+
+Bước 1: Khi đọc đề xong mình nghĩ tới việc tìm các file config nên mình sử dụng công cụ ```dirsearch``` 
+
+> ![image](https://user-images.githubusercontent.com/90112096/140530035-acadc1bd-f059-415e-8634-86c303f8bdd4.png)
+
+Bước 2: Sau khi quét xong thì mình tìm được hai đường link 
+
+```http://chal16.web.letspentest.org/.htaccess
+   http://chal16.web.letspentest.org/web.config
+```
+
+Bước 3: Mở 2 đường link ra ta được 2 phần của flag  **Flag{1b283f0725d536a0f217d89**
+
+Bước 4: Tuy nhiên ở link thử hai mình để ý đến một file có trong source code nên mình quyết định truy cập thử vào nó
+
+```http://chal16.web.letspentest.org/backup-ddmmyy.bak```
+
+> ![image](https://user-images.githubusercontent.com/90112096/140530430-70c1cfba-0f98-49b3-94cc-252915cc6aed.png)
+
+Bước 5: Sau khi tải file về mình dùng trang web ```https://www.toolsley.com/file.html``` để check đuôi file là gì. Sau đó mình đổi tên đuôi file và nhận được flag
+
+> ![image](https://user-images.githubusercontent.com/90112096/140530896-1f359c34-f54a-4cfb-93fe-f109c91fe4ba.png)
+
+**Flag{1b283f0725d536a0f217d89caca7b183}**
+
