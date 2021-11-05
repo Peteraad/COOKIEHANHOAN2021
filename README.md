@@ -690,9 +690,8 @@ Bước 1: Khi đọc đề xong mình nghĩ tới việc tìm các file config 
 
 Bước 2: Sau khi quét xong thì mình tìm được hai đường link 
 
-```http://chal16.web.letspentest.org/.htaccess
-   http://chal16.web.letspentest.org/web.config
-```
+```http://chal16.web.letspentest.org/.htaccess```
+```http://chal16.web.letspentest.org/web.config```
 
 Bước 3: Mở 2 đường link ra ta được 2 phần của flag  **Flag{1b283f0725d536a0f217d89**
 
@@ -717,15 +716,15 @@ Bước 5: Sau khi tải file về mình dùng trang web ```https://www.toolsley
 
 Bước 1: Sau khi xem qua source code, mình nhận thấy ở đây chỉ có nhập vào URL nên mình đoán đây rất có thể là một bài SSRF.
 
-Bước 2: Sau khi nhập thử ```file:///``` thì mình nhận được một ảnh
+Bước 2: Nhập thử ```file:///``` thì mình nhận được một ảnh
 
 > ![image](https://user-images.githubusercontent.com/90112096/140535630-cb96234c-87c5-45a7-9392-b874ca65d590.png)
 
-Bước 3: Sau đó mình thử capture thử vài đường dẫn theo hình 
+Bước 3: Tiếp theo mình thử capture thử vài đường dẫn theo hình 
 
 > ![image](https://user-images.githubusercontent.com/90112096/140536145-03c7e774-ab76-440a-9bd4-4355ba776edb.png)
 
-Bước 4: Sau khi kiểm tra vài đường dẫn thì mình đều không thấy flag ở đó nên mình đã suy nghĩ đến /proc nơi mà các chương trình đang thực thi. Sau một hồi lục trong file đấy thì mình tìm được ```file:///proc/1/cwd``` là nơi mà đang chứa một folder bí mật.   
+Bước 4: Kiểm tra vài đường dẫn thì mình đều không thấy flag ở đó nên mình đã suy nghĩ đến /proc nơi mà các chương trình đang thực thi. Sau một hồi lục trong file đấy thì mình tìm được ```file:///proc/1/cwd``` là nơi mà đang chứa một folder bí mật.   
 
 > ![image](https://user-images.githubusercontent.com/90112096/140537600-6483b65b-427d-47b9-8a21-520602f51102.png)
 
