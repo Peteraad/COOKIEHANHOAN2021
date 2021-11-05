@@ -702,9 +702,90 @@ Bước 4: Tuy nhiên ở link thử hai mình để ý đến một file có tr
 
 > ![image](https://user-images.githubusercontent.com/90112096/140530430-70c1cfba-0f98-49b3-94cc-252915cc6aed.png)
 
-Bước 5: Sau khi tải file về mình dùng trang web ```https://www.toolsley.com/file.html``` để check đuôi file là gì. Sau đó mình đổi tên đuôi file và nhận được flag
+Bước 5: Sau khi tải file về mình dùng trang web ```https://www.toolsley.com/file.html``` để check đuôi file là gì. Sau đó mình đổi tên đuôi file và nhận được nốt phần 3 của flag
 
 > ![image](https://user-images.githubusercontent.com/90112096/140530896-1f359c34-f54a-4cfb-93fe-f109c91fe4ba.png)
 
 **Flag{1b283f0725d536a0f217d89caca7b183}**
 
+### Bài 6: PAPARAZZI
+Đây là cánh cửa thần kì giúp Gà vượt qua mọi rào cản, biên giới. Mèo Yang Hồ khao khát có được thứ bảo bối này, nên ngày đêm ngồi tìm kiếm lỗ hổng. Bạn muốn giúp Mèo một tay?
+
+> http://chal8.web.letspentest.org/
+
+### ***Cách giải:***
+
+Bước 1: Sau khi xem qua source code, mình nhận thấy ở đây chỉ có nhập vào URL nên mình đoán đây rất có thể là một bài SSRF.
+
+Bước 2: Sau khi nhập thử ```file:///``` thì mình nhận được một ảnh
+
+> ![image](https://user-images.githubusercontent.com/90112096/140535630-cb96234c-87c5-45a7-9392-b874ca65d590.png)
+
+Bước 3: Sau đó mình thử capture thử vài đường dẫn theo hình 
+
+> ![image](https://user-images.githubusercontent.com/90112096/140536145-03c7e774-ab76-440a-9bd4-4355ba776edb.png)
+
+Bước 4: Sau khi kiểm tra vài đường dẫn thì mình đều không thấy flag ở đó nên mình đã suy nghĩ đến /proc nơi mà các chương trình đang thực thi. Sau một hồi lục trong file đấy thì mình tìm được ```file:///proc/1/cwd``` là nơi mà đang chứa một folder bí mật.   
+
+> ![image](https://user-images.githubusercontent.com/90112096/140537600-6483b65b-427d-47b9-8a21-520602f51102.png)
+
+Bước 5: Truy cập theo đường dẫn ```file:////proc/1/cwd/Th1s_1s_sEcreT_pAth_c4n_Gu3sss_17831278392131/flag.txt ``` và ta nhận được flag
+
+> ![image](https://user-images.githubusercontent.com/90112096/140538092-3adb0a2b-309a-49b2-ae05-d1e52a1f6521.png)
+
+**FLAG{abc725173fa1828ea019503669b4eecd}**
+
+### Bài 7: GATLING GUN 
+Với chiếc Gatling gun mạnh mẽ trong tay, Mèo Yang Hồ có thể vượt qua bất kì cánh cửa bảo mật nào. Nhưng thật buồn cười là trong tay hắn lại không có một viên đạn nào.
+
+Nếu bạn muốn nghịch súng với Mèo thì hãy đi nhặt đạn ở trong Github của Cookie Hân Hoan nhé.
+
+> http://chal9.web.letspentest.org/
+
+### ***Cách giải:***
+
+Bước 1: Quay lại với github của Cookie Hân Hoan ta tìm được 3 file user/pass/ip tương ứng với những thứ ta cần điền trong trang web :)))
+
+> ![image](https://user-images.githubusercontent.com/90112096/140532412-7a6b11ea-5154-4805-a87d-6e83c24b76d0.png)
+
+> [HoangTuEch-main (5).zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7486961/HoangTuEch-main.5.zip)
+
+Bước 2: Như tên đề thì mình đi cầm sáu nóng sấy thôi hehe :)))), setting của khẩu sáu nòng như hình nhen
+
+> ![image](https://user-images.githubusercontent.com/90112096/140532801-0497138a-d669-4a48-aa12-5ee507283edb.png)
+
+Bước 3: Sau vài "phút" chờ đợi, ta đã nhận được flag :">
+
+> ![gat](https://user-images.githubusercontent.com/90112096/140534251-43c8c7eb-3954-46bc-9ec3-931d89e1163c.png)
+
+**FLAG{e6c068faf9241fe9d1f2000516718377}**
+
+### Bài 8: THE MAZE RUNNER
+Lạc vào một mê cung với vô vàn những chuỗi kí tự bí ẩn. Vừa chạy vừa phải nghĩ đâu mới manh mối giúp Gà thoát ra.
+
+Hãy giúp Gà một tay nhé?
+
+> http://chal10.web.letspentest.org/
+
+### ***Cách giải:***
+
+Cách làm của mình thì đi mở từng file ra thôi =))) chứ không có gì đặc biệt cả.
+
+> http://chal10.web.letspentest.org/MS70RIE/2D5TA9DK/UGR85I0H/60ADG
+
+**FLAG{6059e2117ea3eeecdad7faf1e15d16a2}**
+
+### Bài 9: ID'OR1=1
+Một lỗ hổng rất cơ bản! Nhưng nếu nó xảy ra thì hậu quả rất khủng khiếp...
+
+> http://chal11.web.letspentest.org/
+
+### ***Cách giải:***
+
+Bước 1: Theo tên đề thì mình đoán đây là lỗ hổng IDOR. Và dựa vào hint "Cuộc dạo chơi của những con số", mình bèn đi brute force từ 0-2000 xem có ra flag không :))
+
+Bước 2: Sau khi đợi một lúc đến số 1337 thì mình đã thấy flag
+
+> ![1=1](https://user-images.githubusercontent.com/90112096/140534784-38eee7d3-ef2d-4072-a138-48f3267e2846.png)
+
+**Flag{61cb4a784e83b6109999af6f036b88bf}**
