@@ -327,7 +327,7 @@ Bước 3: Sử dụng câu lệnh LIST nhận ra có 10 tin nhắn, kiểm tra 
 
 > ![image](https://user-images.githubusercontent.com/90112096/140308307-7b4a581c-8d90-4635-953b-83b0c71487bd.png)
 
-**Flag{1-Ha\/3-1o0o-UnS33n-3Ma1L}**
+**Flag{1-Ha\\/3-1o0o-UnS33n-3Ma1L}**
 
 ### Bài 2 : VERY GOOD SHIPPER
 Hãy tham gia đấu trường Cookie phiên bản nhanh như chớp. Gà phải chọn ra đáp án đúng trong thời gian nhanh nhất.
