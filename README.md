@@ -553,9 +553,9 @@ Giữ nguyên hiện trường là việc cần thiết trong quá trình điề
 
 ### ***Cách giải:***
 
-Bước 1: Tải file về ( file nặng gần 2gb nên hơi nặng :"> ) , sau đó mình mở HxD để đọc file.
+Bước 1: Tải file về ( file nặng gần 2gb nên hơi nặng :"> ) , mình mở HxD để đọc file.
 
-Bước 2: Sau đó ta tìm được string Flag{ và ta thấy được flag
+Bước 2: Sau đó ta tìm string Flag{ và ta thấy được flag
 
 > ![image](https://user-images.githubusercontent.com/90112096/140451568-f899cc3d-a05f-4440-a174-dcaee813e66c.png)
 
