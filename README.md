@@ -13,7 +13,7 @@ Bước 2: Ở đây mình sẽ sử dụng tool XOR decode để có thể tìm
 
 > https://www.dcode.fr/xor-cipher 
 
-**Flag{a^b=c=>b^c=a}**
+> **Flag{a^b=c=>b^c=a}**
 
 ### Bài 2 : MORSE
 Suỵt! Tập trung và đeo tai nghe lên nào. Gà có nghe thấy nhịp beat không? Họ nói gì từ bên kia chiến tuyến Format: Flag{what_you_find}
@@ -30,7 +30,7 @@ Bước 2: Ta tìm được thông điệp của bài cần
 
 > ![image](https://user-images.githubusercontent.com/90112096/140239644-2acc9f0b-cd35-463f-bb65-c54941590024.png)
 
-**Flag{M.O.R.S.E.C.O.D.E}**
+> **Flag{M.O.R.S.E.C.O.D.E}**
 
 ### Bài 3 : JULIUS CAESER
 Vô tình khi khai quật khảo cổ, Gà tìm được một thông điệp bí ẩn khoảng hơn 100 năm trước công nguyên. Nghe đồn đây là một bí thuật đã bị thay đổi công thức của một vị tướng Julius Caesar, sau này trở thành vị vua đầu tiên của đế chế La Mã hùng mạnh. Hãy giúp Gà giải mật thư này!
@@ -47,7 +47,7 @@ Bước 2: Sau khi decode ta tìm được flag :3
 
 > ![image](https://user-images.githubusercontent.com/90112096/140243394-c85ad1d8-1054-444c-9535-72a3197f6200.png)
 
-**Flag{El_Clasico_Cipher}**
+> **Flag{El_Clasico_Cipher}**
 
 ### Bài 4: SIXTY FOUR
 Gà để lại một thông điệp bí mật nhưng nó không làm khó được trí thông minh của Mèo Yang Hồ.
@@ -66,7 +66,7 @@ Bước 2: Tuy nhiên đây chưa phải là Flag dựa vào quan sát ta thử 
 
 > ![image](https://user-images.githubusercontent.com/90112096/140244509-1ea7151c-9ada-49c9-a6d1-b0664f38ce54.png)
 
-**Flag{___Base64xHex___}**
+> **Flag{___Base64xHex___}**
 
 ## MISC
 ### Bài 1 : DISCORD
