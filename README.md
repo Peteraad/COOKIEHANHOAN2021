@@ -544,7 +544,7 @@ Bước 2: Tải tất cả ảnh về, ta thấy được các mảnh của mã
 
 **Flag{1s_th1s_m1sc3llan30us?}**
 
-## Bài 7: VOLATILITY
+### Bài 7: VOLATILITY
 The true forenSeek
 
 Giữ nguyên hiện trường là việc cần thiết trong quá trình điều tra số. Một trong những file lưu trữ hình ảnh của RAM trong quá trình làm đề thi được leak ra cho các chiến binh. Cho mình thấy các cậu tìm được gì nào :)
@@ -561,7 +561,7 @@ Bước 2: Sau đó ta tìm string Flag{ và ta thấy được flag
 
 **Flag{7ef31e58bd4086e294b4d700c721f35f}**
 
-## Bài 8: GITHUB
+### Bài 8: GITHUB
 Được biết tới như một kho lưu trữ mã nguồn khổng lồ của thế giới, và những thay đổi trong quá khứ đều được lưu lại và khôi phục. Hãy kiếm tìm những bí mật mà Gà con lon ton vô tình để lại.
 
 > https://github.com/.....
