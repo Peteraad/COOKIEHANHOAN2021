@@ -98,7 +98,7 @@ Bước 1: Ta thử kết nối với programming.letspentest.org 8111 bằng ne
 
 > ![image](https://user-images.githubusercontent.com/90112096/140245690-baa42b47-5ab5-4442-ae19-4c1bfa957465.png)
 
-Bước 2: Ta bắt tay vào code socket. Các bạn nên đọc code để dễ hiểu hơn : https://pastebin.com/Xufdw1Wx
+Bước 2: Ta bắt tay vào code socket. Các bạn nên đọc code để dễ hiểu hơn : ```https://pastebin.com/Xufdw1Wx```
 
 > ![image](https://user-images.githubusercontent.com/90112096/140245862-e2482351-7bd7-463b-8064-39c45851d8f3.png)
 
@@ -119,7 +119,7 @@ Bước 1: Ta thử kết nối với programming.letspentest.org 8222 bằng ne
 - NẾU KẾT QUẢ CÓ 1 NGHIỆM DUY NHẤT -> RETURN 1 STRING CÓ 2 KẾT QUẢ NGĂN CÁCH BẰNG DẤU "," (VD: "1, 1"    "123, 123")
 - NẾU KẾT QUẢ CÓ 2 NGHIỆM KHÁC NHAU -> RETURN 1 STRING KẾT QUẢ THEO THỨ TỰ TỪ BÉ ĐẾN LỚN, NGĂN CÁCH NHAU BẰNG DẤU "," (VD: "-1, 1"   "-123, 123")
 
-Bước 2: Ta bắt tay vào code socket. Các bạn nên đọc code để dễ hiểu hơn : https://pastebin.com/HCsUTkFC
+Bước 2: Ta bắt tay vào code socket. Các bạn nên đọc code để dễ hiểu hơn : ```https://pastebin.com/HCsUTkFC```
 
 > ![image](https://user-images.githubusercontent.com/90112096/140246372-6e7daa07-e0ae-498a-9806-4f64f9f5df82.png)
 
@@ -636,7 +636,7 @@ Bước 1: Như tên đề thì mình biết rằng đây là lổ hổng SQL, v
 
 Bước 2: Sau khi thử vài cái thì mình sử dụng được payload 
 
-> ' OR 1 -- -
+```' OR 1 -- -```
 
 > ![image](https://user-images.githubusercontent.com/90112096/140526515-b5489f40-d968-42ca-9e22-056d9ad783ad.png)
 
