@@ -522,7 +522,7 @@ Bước 3: Ta sử dụng password để giải nén file zip, ta nhận đượ
 
 **Flag{TCP_streamin_go_skrrrrrrrt}**
 
-## Bài 6 INTERCEPTOR
+## Bài 6 : INTERCEPTOR
 Rối loạn tiền đình là bệnh lý gây ra trạng thái mất cân bằng về tư thế, khiến người bệnh thường xuyên bị chóng mặt, hoa mắt, ù tai, đi đứng lảo đảo.
 
 Nhưng sự thật não bạn đang muốn nhảy như điệu tanggo Khoan, dừng khoảng chừng là 2 giây!
