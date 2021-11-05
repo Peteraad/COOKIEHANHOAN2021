@@ -433,4 +433,148 @@ Hazy gửi cho Gà một thông điệp bí mật, kèm một lời nhắn "Đ�
 
 ### ***Cách giải:***
 
+Bước 1: Tải file về bỏ vào phần mềm Sonic Visualiser, thêm dải âm thanh Spectrogram vào.
+
+Bước 2: Căng mắt ra và đọc flag thôi :))
+
+> ![image](https://user-images.githubusercontent.com/90112096/140446588-8b01c840-30e5-42c1-a0b1-ef51eb8d180c.png)
+
+**Flag{No_Bullets_for_Player_001}**
+
+### Bài 2: BASIC IMAGE 
+Đố bạn biết bức ảnh này được nhắc tới bài viết nào trên Fanpage của Cookie Hân Hoan ấy. Hehe!
+
+> https://www.facebook.com/cookie.han.hoan/
+> [KB (2).zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7480017/KB.2.zip)
+
+### ***Cách giải:***
+
+Bước 1: Tải file về, ta thấy đây là một tấm ảnh nhìn qua thì có vẻ không có gì bất thường. Tuy nhiên khi ta mở nó bằng Notepad thì ta thấy được flag
+
+> ![image](https://user-images.githubusercontent.com/90112096/140446814-9f852a88-d972-428f-bcf8-86db179d7bf4.png)
+
+**Flag{metadataratatatataaaaaa}**
+
+### Bài 3: EXSELLER
+Để không bị Mèo nhòm ngó tệp tài liệu quan trọng. Gà nhanh tay đặt mật khẩu, nhưng lại vô tình quên mất. Làm thế nào bây giờ T_T
+
+> [bruteme (2).xlsx](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7480024/bruteme.2.xlsx)
+
+### ***Cách giải:***
+
+Bước 1: Khi tải file về và mở lên thì ta thấy các sheet đang bị protect, việc đầu tiên mình phải làm là unprotect nó. Mình tham khảo cách làm dưới đây
+
+> https://allthings.how/how-to-unprotect-an-excel-sheet-or-workbook-with-or-without-password/
+
+> ![image](https://user-images.githubusercontent.com/90112096/140447455-467e28bd-5953-439b-b1f4-2bd86d4c60bf.png)
+
+Bước 2: Sau khi unprotect cả 3 sheet thì ta dùng lệnh Ctrl + F để tìm string Flag{ , và ta đã thấy được flag
+
+> ![image](https://user-images.githubusercontent.com/90112096/140447581-59b01dac-db7a-4b10-bcc5-302aa24d3fff.png)
+
+**Flag{Micro$oft_Heck3r_Man}**
+
+### Bài 4: FROM THE ABOVE
+Gà và Mèo Yang Hồ đã cùng nhau thoát khỏi trọng lực, lẩn trốn loài người tại một hành tinh đày đất đá, và một khí quyển mỏng.
+
+Vượt qua chặng đường 472 triệu km trong 7 tháng, đây là bức ảnh đầu tiên họ gửi về trái đất.
+
+Bạn có giải mã được những tín hiệu này không?
+
+> [ufo (2).zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7480054/ufo.2.zip)
+
+### ***Cách giải:***
+
+Bước 1: Đọc đề thì ta cần chú ý vài điểm sau 
+- "472 triệu km trong 7 tháng" => Mình đoán đây là nói về sao hỏa hay hiểu cách khác là ngoài Trái Đất
+- "Giải mã được những tín hiệu" => Một tín hiệu nào đó truyền về Trái Đất
+
+> Sau đó mình suy ra đây là tín hiệu có thể từ vệ tinh 
+
+Bước 2: Mình tìm kiếm trên google dưới dạng từ khóa "satellite audio signal ctf" thì mình tìm được một số bài viết về dạng bài này và biết rằng đây là tín hiệu SSTV
+
+> https://0xf4b1.github.io/ctftime/picoctf-2019/forensics/m00nwalk/
+
+Bước 3: Do mình không biết đây là chế độ gì nên mình đã thử lần lượt các chế độ trong MMSSTV, đến khi chế độ AVT-90 thì mình đã nhận được flag
+
+> ![unknown](https://user-images.githubusercontent.com/90112096/140449502-c0e0c849-c618-4497-a029-d5b9097db5fe.png)
+
+**Flag{h3ll0_fr0m_th3_0th3r_Sky}**
+
+### Bài 5: STREAMER
+Anh nghệ sĩ nhiều đam mê đang vớt rác bên tàu. Ta lang thang với bản vẽ đời ta tự tô màu.
+
+Ô! Vớt được cái gì thú zị này!
+
+> [travis (2).zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7480137/travis.2.zip)
+
+### ***Cách giải:***
+
+Bước 1: Tải file về dùng WireShark để đọc file. Sau đó filter http, ta được thông tin login
+
+> ![image](https://user-images.githubusercontent.com/90112096/140450373-d98ceaea-37ad-4dea-8699-d858d382d9fc.png)
+
+Bước 2: Tiếp theo ta vào phần File-Export objects-HTTP, đọc các file .php ta thu được "username=travisscott&password=truongvinhcuc&submit=Login".
+
+>  ![image](https://user-images.githubusercontent.com/90112096/140450785-3db5751a-50c1-4f4c-8d1d-d8f51b7f5c98.png)
+
+Bước 3: Ta sử dụng password để giải nén file zip, ta nhận được file flag.txt mở ra, ta có flag
+
+**Flag{TCP_streamin_go_skrrrrrrrt}**
+
+## Bài 6 INTERCEPTOR
+Rối loạn tiền đình là bệnh lý gây ra trạng thái mất cân bằng về tư thế, khiến người bệnh thường xuyên bị chóng mặt, hoa mắt, ù tai, đi đứng lảo đảo.
+
+Nhưng sự thật não bạn đang muốn nhảy như điệu tanggo Khoan, dừng khoảng chừng là 2 giây!
+
+> ![cooooooooooookie (1)](https://user-images.githubusercontent.com/90112096/140450863-ebb0a661-784b-479c-ba55-d53037a0d802.gif)
+
+### ***Cách giải:***
+
+Bước 1 : Mình sử dụng trang web để tách từng frame của gif
+
+> https://ezgif.com/split/
+
+Bước 2: Tải tất cả ảnh về, ta thấy được các mảnh của mã QR được cắt ra trên từng ảnh. Sau khi ghép xong, ta quét và nhận flag.
+
+> [Untitled-2.zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7480190/Untitled-2.zip)
+//Đây là file ảnh mình ghép 
+
+> ![image](https://user-images.githubusercontent.com/90112096/140451345-4c67872f-8680-426c-a795-2749d9b4897b.png)
+
+**Flag{1s_th1s_m1sc3llan30us?}**
+
+Bài 7: VOLATILITY
+The true forenSeek
+
+Giữ nguyên hiện trường là việc cần thiết trong quá trình điều tra số. Một trong những file lưu trữ hình ảnh của RAM trong quá trình làm đề thi được leak ra cho các chiến binh. Cho mình thấy các cậu tìm được gì nào :)
+
+> https://drive.google.com/file/d/1PMbu0KbORvRD7Sp2-V-2e-97YIJUY86p/view?usp=sharing
+
+### ***Cách giải:***
+
+Bước 1: Tải file về ( file nặng gần 2gb nên hơi nặng :"> ) , sau đó mình mở HxD để đọc file.
+
+Bước 2: Sau đó ta tìm được string Flag{ và ta thấy được flag
+
+> ![image](https://user-images.githubusercontent.com/90112096/140451568-f899cc3d-a05f-4440-a174-dcaee813e66c.png)
+
+**Flag{7ef31e58bd4086e294b4d700c721f35f}**
+
+## Bài 8: GITHUB
+Được biết tới như một kho lưu trữ mã nguồn khổng lồ của thế giới, và những thay đổi trong quá khứ đều được lưu lại và khôi phục. Hãy kiếm tìm những bí mật mà Gà con lon ton vô tình để lại.
+
+> https://github.com/.....
+
+### ***Cách giải:***
+
+Bước 1: Đọc đề thì ta cần lưu ý đến "Những bí mật mà Gà con lon ton" mà con gà ở đây là nói về cookiehanhoan nên ta thử tìm theo đường dẫn 
+
+> https://github.com/cookiehanhoan
+
+Bước 2: "Những thay đổi trong quá khứ đều được lưu lại và khôi phục" sau khi truy cập vào Repositories/HoangTuEch, ta vào phần lịch sử commit và đọc từng cái, sau đó ta tìm thấy được flag
+
+> ![image](https://user-images.githubusercontent.com/90112096/140452009-4e0f03dc-e2f7-464f-b072-9411797a787f.png)
+
+**Flag{no_where_to_hide_gitleaks}**
 
