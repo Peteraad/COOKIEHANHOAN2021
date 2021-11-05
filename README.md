@@ -66,7 +66,7 @@ Bước 2: Tuy nhiên đây chưa phải là Flag dựa vào quan sát ta thử 
 
 > ![image](https://user-images.githubusercontent.com/90112096/140244509-1ea7151c-9ada-49c9-a6d1-b0664f38ce54.png)
 
-**Flag{\___Base64xHex___\}**
+**Flag{\_\_\_Base64xHex_\_\_\}**
 
 ## MISC
 ### Bài 1 : DISCORD
