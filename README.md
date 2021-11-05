@@ -540,7 +540,7 @@ Bước 2: Tải tất cả ảnh về, ta thấy được các mảnh của mã
 > [Untitled-2.zip](https://github.com/Peteraad/COOKIEHANHOAN2021/files/7480190/Untitled-2.zip)
 //Đây là file ảnh mình ghép 
 
-> ![z2907974725210_e956c715e82d5c4d794858d82165b45e](https://user-images.githubusercontent.com/90112096/140481244-4f45ccd0-4963-4833-9423-698d8841b5c9.jpg)
+> ![z2907974725210_e956c715e82d5c4d794858d82165b45e (2)](https://user-images.githubusercontent.com/90112096/140481462-2da19f01-595a-447f-a219-a1b00dddc0da.jpg)
 
 **Flag{1s_th1s_m1sc3llan30us?}**
 
