@@ -789,6 +789,3 @@ Bước 2: Sau khi đợi một lúc đến số 1337 thì mình đã thấy fla
 > ![1=1](https://user-images.githubusercontent.com/90112096/140534784-38eee7d3-ef2d-4072-a138-48f3267e2846.png)
 
 **Flag{61cb4a784e83b6109999af6f036b88bf}**
-
-## Lời kết
- Mình xin cảm ơn các bạn đã đọc write-up của mình. Cảm ơn Cookie Hân Hoan đã tạo một sân chơi cho chúng em thỏa sức với đam mê của bản thân. Vì mình chỉ giải được 37/40 thử thách của cuộc thi nên còn vài thử thách mình không làm được nên không có viết, mong các bạn thông cảm hì hì :3. ClownCS 18th !!! <3
